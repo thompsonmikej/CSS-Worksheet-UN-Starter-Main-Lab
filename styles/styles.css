@@ -1,4 +1,3 @@
-
 /* This will apply all included styles to the header element */
 header{
     font-size: 70px;
@@ -17,20 +16,26 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
-    background-color: #f7b438ab;
+    background-color: #f7b43885;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.25em;
 }
-
-/* Create your own classes below! */
-
 h1 {
     color: #780116;
 }
 
+/* paragraph */
+p,
+img {
+    width: 400px;
+    border: 1px solid;
+    border-radius: 2em;
+    padding: 20px;
+    text-align: justify;
+}
 
 /* Fixed bottom navigation bar */
-nav > ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,11 +45,11 @@ nav > ul {
     bottom: 0;
     width: 100%;
 }
-    
+
 nav li {
     float: left;
 }
-    
+
 nav li a {
     display: block;
     color: white;
@@ -52,23 +57,27 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-    
+
 nav li a:hover:not(.active) {
     background-color: #780116;
     font-weight: bold;
 }
-    
+
 nav .active {
     background-color: #04AA6D;
 }
 
-/* paragraph */
-p {
-    width: 400px;
-    border: 1px solid;
-    border-radius: 1em;
-    padding:20px;
-    text-align: justify;
+/* Create your own classes below! */
+.text-box {
+    background-color: #db7c26;
 }
+
+.colors-2 {
+    color: white;
+}
+
+
+    
+
 
 

@@ -69,15 +69,43 @@ nav .active {
 
 /* Create your own classes below! */
 .text-box {
-    background-color: #db7c26;
+    background-color: #48290d;
 }
 
 .colors-2 {
     color: white;
 }
-
-
-    
-
-
+.flex-container {
+    display: flex;
+    /* align-items: left; */
+    /* justify-content: space-evenly; */
+}
+.flex-container-outer-1 {
+    order:-1;
+}
+.flex-container-inner {
+    flex-direction: column;
+}
+.flex-container-inner-upper {
+    order: 0;
+}
+.flex-container-inner-lower {
+    order: 1;
+}
+ .flex-container-outer-2 {
+     order: 99;
+ }
+.empty-divs {
+    height:100vh;
+}
+.empty-div-width {
+    width: 100%;
+    background-color: #2c6e49;
+    border-color: #2c6e49;
+}
+.empty-div-viewport-width {
+    width:100vw;
+    background-color: #780116;
+    border-color: #780116;
+}
 

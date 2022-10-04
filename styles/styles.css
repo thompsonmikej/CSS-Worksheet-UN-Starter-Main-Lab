@@ -1,0 +1,74 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+ }
+
+/* This will apply any included styles to the body element */
+body{
+    background-color: #f7b438ab;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25em;
+}
+
+/* Create your own classes below! */
+
+h1 {
+    color: #780116;
+}
+
+
+/* Fixed bottom navigation bar */
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c32f27;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    
+nav li {
+    float: left;
+}
+    
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+nav li a:hover:not(.active) {
+    background-color: #780116;
+    font-weight: bold;
+}
+    
+nav .active {
+    background-color: #04AA6D;
+}
+
+/* paragraph */
+p {
+    width: 400px;
+    border: 1px solid;
+    border-radius: 1em;
+    padding:20px;
+    text-align: justify;
+}
+
+

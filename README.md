@@ -23,8 +23,8 @@ This project guides you through styling a UNESCO-themed HTML worksheet using **s
 
 ## Technologies Used
 
-- HTML5 (used semantic elements, `<header>`, `<nav>`, `<main>`, etc.)
 - CSS3
+- HTML5 (used semantic elements, `<header>`, `<nav>`, `<main>`, etc.)
 
 ---
 

@@ -48,12 +48,6 @@ This project guides you through styling a UNESCO-themed HTML worksheet using **s
 
 ---
 
-## Why Semantic HTML?
-
-> Using semantic elements in HTML clarifies both the meaning and the structure of your content—for browsers, developers, and assistive technologies. This approach leads to better accessibility, maintainability, and SEO, and is considered a fundamental modern web standard.
-
----
-
 ## Challenges & Lessons Learned
 
 - Practiced writing and styling HTML using the most descriptive elements for each content section.
